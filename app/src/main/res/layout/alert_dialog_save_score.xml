@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#DF8A8A"
+        android:textColor="#073BF6"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Save Score"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Full Name:" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvRoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Room:" />
+
+        <EditText
+            android:id="@+id/edtRoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Room"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvShowScoreLate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="100 point"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#C31212"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#B9CCA3"/>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".score.ScoreFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5CDFD0"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Danh sách điểm"
+        android:textColor="#DC1212"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#D6EAB6"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Name"
+            android:textColor="#CD6D05"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#D6EAB6"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Room"
+            android:textColor="#CD6D05"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#D6EAB6"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Score"
+            android:textColor="#CD6D05"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lvScore"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
